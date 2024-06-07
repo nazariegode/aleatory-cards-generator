@@ -57,4 +57,7 @@ window.onload = () => {
   };
 
   generateCardsDetails();
+
+  const changeCardButton = document.getElementById("changeCardButton");
+  changeCardButton.addEventListener("click", generateCardsDetails);
 };
